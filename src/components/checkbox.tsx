@@ -11,7 +11,6 @@ export const Checkbox = () => {
 
     const changeCheckbox = (e: ChangeEvent<HTMLInputElement>) => {
         dispatch(setValueCheckboxAC(e.currentTarget.checked))
-
     }
 
     return (

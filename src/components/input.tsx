@@ -8,7 +8,7 @@ export const Input = () => {
 
 
     const dispatch = useDispatch()
-    const value = useSelector<RootStateType, string>(state => state.data.valueInput)
+    const valueInput = useSelector<RootStateType, string>(state => state.data.valueInput)
 
     const changeInput = (e: ChangeEvent<HTMLInputElement>) => {
         dispatch(setValueInputAC(e.currentTarget.value))
@@ -16,7 +16,7 @@ export const Input = () => {
 
     return (
         <div>
-            <input type='text' placeholder='search' onChange={changeInput} value={value}/>
+            <input type='text' placeholder='search' onChange={changeInput} value={valueInput}/>
         </div>
     )
 }
