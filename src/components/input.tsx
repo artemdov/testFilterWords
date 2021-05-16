@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {ChangeEvent} from 'react';
+import {setValueInputAC} from "../store/reducer";
+import {useDispatch, useSelector} from "react-redux";
+import {RootStateType} from "../store/store";
 
 
 export const Input = () => {
+
+
+    const dispatch = useDispatch()
+    const value = useSelector<RootStateType, string>(state => state.data.valueInput)
+
+    const changeInput = (e: ChangeEvent<HTMLInputElement>) => {
+        dispatch(setValueInputAC(e.currentTarget.value))
+    }
+
     return (
         <div>
-        <input/>
-    </div>
+            <input type='text' placeholder='search' onChange={changeInput} value={value}/>
+        </div>
     )
 }
