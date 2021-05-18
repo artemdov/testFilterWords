@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/testFilterWords/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/testFilterWords/static/js/main.66cd264c.chunk.js",
-    "main.js.map": "/testFilterWords/static/js/main.66cd264c.chunk.js.map",
+    "main.css": "/testFilterWords/static/css/main.fdd3d2a6.chunk.css",
+    "main.js": "/testFilterWords/static/js/main.979bdfc4.chunk.js",
+    "main.js.map": "/testFilterWords/static/js/main.979bdfc4.chunk.js.map",
     "runtime-main.js": "/testFilterWords/static/js/runtime-main.0b0ed289.js",
     "runtime-main.js.map": "/testFilterWords/static/js/runtime-main.0b0ed289.js.map",
     "static/js/2.be9dd2a4.chunk.js": "/testFilterWords/static/js/2.be9dd2a4.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8652645e.chunk.js": "/testFilterWords/static/js/3.8652645e.chunk.js",
     "static/js/3.8652645e.chunk.js.map": "/testFilterWords/static/js/3.8652645e.chunk.js.map",
     "index.html": "/testFilterWords/index.html",
-    "static/css/main.ea1455b2.chunk.css.map": "/testFilterWords/static/css/main.ea1455b2.chunk.css.map",
+    "static/css/main.fdd3d2a6.chunk.css.map": "/testFilterWords/static/css/main.fdd3d2a6.chunk.css.map",
     "static/js/2.be9dd2a4.chunk.js.LICENSE.txt": "/testFilterWords/static/js/2.be9dd2a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0b0ed289.js",
     "static/js/2.be9dd2a4.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.66cd264c.chunk.js"
+    "static/css/main.fdd3d2a6.chunk.css",
+    "static/js/main.979bdfc4.chunk.js"
   ]
 }
