@@ -4,7 +4,6 @@ import {RootStateType} from "../store/store";
 import {setErrorAC, setFilterDataAC} from "../store/reducer";
 
 const ButtonLength = () => {
-    debugger
     const dispatch = useDispatch()
     const valueInput = useSelector<RootStateType, string>(state => state.data.valueInput)
     const data = useSelector<RootStateType, string[]>(state => state.data.data)
@@ -16,7 +15,7 @@ const ButtonLength = () => {
         +(valueInput) ? dispatch(setFilterDataAC(data.filter(i => i.length > +(valueInput)))) : dispatch(setErrorAC('Enter correct data'))
     }
     return (
-        <div>
+        <div className="ButtonLength">
             <button onClick={onClickLengthHandler}>
                 length
             </button>

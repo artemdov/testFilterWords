@@ -26,8 +26,10 @@ function App() {
         <div className="App">
             <Input/>
             <Checkbox/>
+            <div className="Buttons">
             <ButtonSubstring/>
             <ButtonLength/>
+            </div>
         </div>
     )
 }

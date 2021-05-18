@@ -15,7 +15,7 @@ export const Input = () => {
     }
 
     return (
-        <div>
+        <div className="Input">
             <input type='text' placeholder='search' onChange={changeInput} value={valueInput}/>
         </div>
     )
