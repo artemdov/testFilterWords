@@ -13,7 +13,6 @@ import {RootStateType} from "./store/store";
 function App() {
 
     const dispatch = useDispatch()
-    const valueCheckbox = useSelector<RootStateType, boolean>(state => state.data.valueCheckbox)
 
 
     useEffect(() => {
